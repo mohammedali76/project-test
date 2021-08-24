@@ -1,15 +1,11 @@
 import React from "react";
 import "./App.css";
-import Form from "./components/form";
-import Login from "./components/login";
-import UserList from "./components/usersList";
+import Conference from "./components/conference";
 
 const App = () => {
   return (
     <div>
-      {/* <Form /> */}
-      {/* <Login /> */}
-      <UserList />
+      <Conference />
     </div>
   );
 };

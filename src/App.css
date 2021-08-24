@@ -1,10 +1,101 @@
-* {
+html {
+  font-size: 90.5%;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #34495e;
+
+  color: aliceblue;
+  font-family: "Raleway", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+p {
+  font-size: 4rem;
+}
+
+h1 {
+  font-size: 7rem;
+  text-transform: capitalize;
+}
+
+body {
+  background-color: #b3e5fc;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+}
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+.textLeft {
+  text-align: left;
+}
+.loadingDiv {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.card {
+  width: 450px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: auto;
+}
+.image {
+  min-width: 155px;
+  margin-right: 20px;
+}
+.stats {
+  background: #f2f5f8 !important;
+  color: #000 !important;
+}
+.conference {
+  font-size: 10px;
+  color: #a1aab9;
+}
+.number1 {
+  font-weight: 500;
+}
+.city {
+  font-size: 10px;
+  color: #a1aab9;
+}
+.number2 {
+  font-weight: 500;
+}
+.paid {
+  font-size: 10px;
+  color: #a1aab9;
+}
+.number3 {
+  font-weight: 500;
+}
+.start {
+  font-size: 10px;
+  color: #a1aab9;
+}
+.twitter_handle {
+  font-size: 10px;
+  color: #a1aab9;
+}
+.user-id {
+  font-size: 10px;
+  color: #a1aab9;
+}
+
+/* * {
   margin: 0;
   padding: 0;
 }
 .container {
   min-height: 100vh;
-  /* flex: 100px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,8 +105,6 @@
   min-width: 350px;
   object-fit: fill;
   min-height: 100vh;
-  /* flex: 100px; */
-  /* display: flex; */
   justify-content: center;
   align-items: center;
 }
@@ -89,11 +178,11 @@ button:active {
   margin-top: 250px;
   min-width: 370px;
   color: #f80759;
-}
+} */
 
 /* its userList CSS */
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -205,4 +294,4 @@ input:focus {
   -webkit-transition: color 0.15s linear;
   transition: color 0.15s linear;
   font-size: 2rem;
-}
+} */
